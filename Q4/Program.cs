@@ -24,6 +24,12 @@
             ReadLine();
 
         }
+
+        /// <summary>
+        /// Checks if a string is a palindrome
+        /// </summary>
+        /// <param name="word"></param>
+        /// <returns></returns>
         static bool IsPalindrome(string word)
         {
             bool pal = true;

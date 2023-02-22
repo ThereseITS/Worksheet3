@@ -32,6 +32,10 @@ namespace q5
             PrintArray(sevensCount);
      
         }
+        /// <summary>
+        /// Prints an integer array
+        /// </summary>
+        /// <param name="numbers"></param>
         static void PrintArray(int[] numbers) 
         {
             for (int i = 0; i < numbers.Length; i++)
@@ -39,6 +43,12 @@ namespace q5
                 WriteLine($" {i} : {numbers[i]}");
             }
         }
+        /// <summary>
+        /// Generates an array of random numbers from min to max-1
+        /// </summary>
+        /// <param name="randomNumbers"></param>
+        /// <param name="min">smallest number </param>
+        /// <param name="max">largest number +1 </param>
         public static void GenerateRandomArray(int[] randomNumbers, int min,int max)
         {
             Random random = new Random();

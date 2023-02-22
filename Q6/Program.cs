@@ -1,7 +1,6 @@
 ﻿namespace Q6
 {
-    // see q5 for where methods enable code to be re-used.
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -13,11 +12,13 @@
                 Console.WriteLine(num);
                 counts[num]++;
             }
-            for(int i=0;i<counts.Length;i++)
+            for (int i = 0; i < counts.Length; i++)
             {
                 Console.WriteLine($"{i}     :    {counts[i]}");
-            }
+            }       
+            
             
         }
+
     }
 }
