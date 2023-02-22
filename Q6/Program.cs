@@ -1,5 +1,6 @@
 ﻿namespace Q6
 {
+    // see q5 for where methods enable code to be re-used.
     internal class Program
     {
         static void Main(string[] args)
