@@ -15,10 +15,6 @@ namespace q5
             int[] sevensCount = new int[20];
             int sevenPosition = -1;
 
-            GenerateRandomArray(randomNumbers,0,9);
-            WriteLine($"Seven is in {FindSevenPosition(randomNumbers)} position.");
-           
-
             for (int i=0;i<100;i++)
             {
                 GenerateRandomArray(randomNumbers,0,9);
